@@ -23,7 +23,7 @@ module.exports.handleEvent = function ({ api, event, client, __GLOBAL }) {
     const moment = require("moment-timezone");
     var gio = moment.tz("Asia/Manila").format("HH:mm:ss || D/MM/YYYY");
     var msg = {
-      body: `╭┈ ❒ [ + ] : PREFIX\n╰┈➤ ${global.config.PREFIX}\n╭┈ ❒ Type this for educ.\n╰┈➤ [ ${global.config.PREFIX}ai ] - [ ${global.config.PREFIX} garfield ]`,
+      body: `╭┈ ❒ MY PREFIX\n╰┈➤ ${global.config.PREFIX}\n╭┈ ❒ Type this for educ.\n╰┈➤ [ ${global.config.PREFIX}ai ] - [ ${global.config.PREFIX}ashley ]`,
     };
     api.sendMessage(msg, threadID, messageID);
   }

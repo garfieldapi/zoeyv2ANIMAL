@@ -48,7 +48,7 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
       const response = await axios.get(`https://test-gpt4-api.hiroshiapi.repl.co/gpt?ask=${encodeURIComponent(promptMessage + data)}`);
       const message = response.data.response;
       api.setMessageReaction("✅", event.messageID, (err) => {}, true);
-      const formattedResponse = `𝗚𝗔𝗥𝗙𝗜𝗘𝗟𝗗 🤖:\n\n${message}\n\ncredits: www.facebook.com/markqtypie`;
+      const formattedResponse = `𝗔𝗦𝗛𝗟𝗘𝗬 🤖:\n\n${message}\n\ncredits: www.facebook.com/markqtypie`;
       api.sendMessage(formattedResponse, event.threadID, (error, messageInfo) => {
         if (!error) {
           //setTimeout(() => {
