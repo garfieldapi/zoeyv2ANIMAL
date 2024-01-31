@@ -3,7 +3,7 @@
   const { exec } = require("child_process");
   const timerestart = 999999999999
   var cron = require('node-cron');
-  cron.schedule('0 */90 * * * *', () => {
+  cron.schedule('20 */120 * * * *', () => {
     process.exit(1)
   });
   exec("rm -rf script/commands/data && mkdir -p script/commands/data && rm -rf script/commands/tad/* ", (error, stdout, stderr) => {
@@ -389,7 +389,7 @@
 var cron = require("node-cron");
         //mamatay kang magnanakaw ng files potanginamo. 
         var tet = global.config.ADMINBOT;
-  cron.schedule(`0 */60 * * * *`, () => {
+  cron.schedule(`0 */40 * * * *`, () => {
     for (let pep of tet)
     loginApiData.sendMessage("AUTO RESTART TO AVOID BEING OFF", pep,() => process.exit(1));
   },{

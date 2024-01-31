@@ -2,12 +2,12 @@ const fs = require('fs-extra');
 const axios = require('axios');
 
 module.exports.config = {
-  name: "capcutdl",
+  name: "cctdl",
   version: "1.0.",
   hasPermssion: 0,
   credits: "shiki",
   description: "CapCut Video Downloader",
-  commandCategory: "downloader",
+  commandCategory: "down",
   usages: "[video link]",
   cooldowns: 2,
 };

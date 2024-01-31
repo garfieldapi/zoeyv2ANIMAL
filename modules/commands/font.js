@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: 'kennethpanio',
   description: 'Converts text into any Font',
-  commandCategory: 'Fancy text',
+  commandCategory: 'utility',
   usages: '<fontType> <input>',
   cooldowns: 5,
 };

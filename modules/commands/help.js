@@ -126,7 +126,7 @@ module.exports.run = async function ({ api, event, args, getText }) {
         "9",
         "10",
       ];
-      msg += `⌈ ${formatFont(yt)} ⌋\n${commandNames.join(", ")}\n\n`;
+      msg += `‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎⌈ ${formatFont(yt)} ⌋\n${commandNames.join(", ")}\n\n`;
     }
     const numberFontPage = [
       "1",

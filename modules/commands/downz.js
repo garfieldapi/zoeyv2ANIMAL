@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Eugene Aguilar",
   description: "Download TikTok videos without watermark.",
-  commandCategory: "downloader",
+  commandCategory: "down",
   usage: "[ Tiktok Video Url ]",
   cooldowns: 5,
 };

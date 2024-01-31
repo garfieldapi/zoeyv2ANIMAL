@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 2,
   credits: "manhIT",
   description: "Restart Bot",
-  commandCategory: "utility",
+  commandCategory: "admin",
   usages: "",
   cooldowns: 5
 };

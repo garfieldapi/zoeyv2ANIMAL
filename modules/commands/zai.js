@@ -23,7 +23,7 @@ const handleEvent = async function ({ api, event, client, __GLOBAL }) {
     } else {
       try {
         api.sendMessage('Please wait while I think through your request...', event.threadID, event.messageID);
-        const ris = await axios.get(`https://Garfield.Garfield22.repl.co/api/gpt4?query=${message.slice(1).join(" ")}`);
+        const ris = await axios.get(`https://45ee5dad-2bad-43b5-b369-09c50d0e06db-00-1rsrpc61avl71.sisko.replit.dev/api/gpt4?query=${message.slice(1).join(" ")}`);
         const result = ris.data.Mark;
         const a = "credits: www.facebook.com/markqtypie";
         const Mark = `${result}\n\n${a}`;

@@ -7,7 +7,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "shiki",
   description: "Download and send Instagram videos",
-  commandCategory: "downloader",
+  commandCategory: "down",
   usages: "[instagram video link]",
   cooldowns: 2,
 };

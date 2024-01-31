@@ -8,7 +8,7 @@ module.exports.config = {
   'credits': "Rickciel",
   'usePrefix': false,
   'description': "Download Random Videos from YT",
-  'commandCategory': "downloader",
+  'commandCategory': "down",
   'usages': "[ YouTube URL ]",
   'cooldowns': 0x5
 };
